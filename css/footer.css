@@ -12,7 +12,7 @@
     height: 8%;
     transition: 0.2s linear;
     width: 100%;
-    padding: 30px;
+
     font: 300 40px Lato, sans-serif;
     text-align: center;
     color: #999;
@@ -30,4 +30,9 @@
     padding: 20px 0;
     text-align: center;
     transition: 0.5s linear;
+}
+
+.contentfoo {
+    padding-bottom: 1em;
+
 }
