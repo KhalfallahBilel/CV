@@ -5,7 +5,7 @@
     width: 56px;
     height: 56px;
     position: absolute;
-    left: 50%;
+    left: 30%;
     top: 30%;
     z-index: 2;
     overflow: hidden;
@@ -509,6 +509,7 @@
         margin-top: 3em;
     }
     .profile-card {
+        left: 50%;
         width: 80vw;
     }
 }
