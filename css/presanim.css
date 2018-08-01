@@ -508,5 +508,7 @@
     #container2 {
         margin-top: 3em;
     }
-    .profile-card {}
+    .profile-card {
+        width: 80vw;
+    }
 }
