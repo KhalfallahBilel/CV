@@ -471,7 +471,7 @@
     float: left;
     text-align: center;
     height: 35px;
-    width: 60px;
+    width: 50px;
     font-size: 22px;
     background: #f0f0f0;
     color: #3c3c3c;
@@ -508,9 +508,5 @@
     #container2 {
         margin-top: 3em;
     }
-    .profile-card {
-
-        left: 60%;
-
-    }
+    .profile-card {}
 }
