@@ -5,7 +5,7 @@
     width: 56px;
     height: 56px;
     position: absolute;
-    left: 30%;
+    left: 50%;
     top: 30%;
     z-index: 2;
     overflow: hidden;
@@ -502,4 +502,10 @@
     border-right: 30px solid transparent;
     border-top: 15px solid #f0f0f0;
     bottom: -15px;
+}
+
+@media (max-width:767px) {
+    #container2 {
+        margin-top: 3em;
+    }
 }
