@@ -19,12 +19,17 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 48px;
-    margin-bottom: -100px;
+
     height: 100vh;
-    padding: 50px;
+
     color: white;
 }
 
+.bio {
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: justify;
+}
 
 .navbar-brand {
     margin-left: 3vw;
@@ -35,9 +40,16 @@ body {
 }
 
 
-.fa-linkedin-in {}
+.titrelien {
+    color: #A52A2A;
 
+}
 
+.contenue {
+    color: black;
+    text-align: center;
+    font-size: 1.3em;
+}
 
 
 
@@ -47,6 +59,8 @@ body {
     width: 100%;
     margin-top: 20px;
     list-style-type: none;
+
+
 }
 
 .timeline:before {
@@ -57,6 +71,7 @@ body {
     display: block;
     width: 2px;
     height: 100%;
+    z-index: -50 !important;
     margin-left: -1px;
     background: rgb(213, 213, 213);
     background: -moz-linear-gradient(top, rgba(213, 213, 213, 0) 0%, rgb(213, 213, 213) 8%, rgb(213, 213, 213) 92%, rgba(213, 213, 213, 0) 100%);
@@ -91,6 +106,7 @@ body {
     border-left-width: 8px;
     border-right-width: 8px;
     top: -4px;
+    z-index: 1;
 }
 
 .timeline .hexa:after {
@@ -98,6 +114,9 @@ body {
     border-right-width: 8px;
     border-top: 4px solid #00c4f3;
     bottom: -4px;
+    z-index: 5;
+
+
 }
 
 .direction-l,
@@ -168,8 +187,26 @@ body {
     float: none;
 }
 
-.time {
+.timer {
+    background: #800000;
+    display: inline-block;
+    padding: 8px;
+}
+
+.timel {
     background: #00c4f3;
+    display: inline-block;
+    padding: 8px;
+}
+
+.timeb {
+    background: #20B2AA;
+    display: inline-block;
+    padding: 8px;
+}
+
+.timev {
+    background: #CD5C5C;
     display: inline-block;
     padding: 8px;
 }

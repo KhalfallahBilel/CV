@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
+@import url('http://weloveiconfonts.com/api/?family=entypo');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.contentf {
+    height: 8%;
+    transition: 0.2s linear;
+    width: 100%;
+    padding: 30px;
+    font: 300 40px Lato, sans-serif;
+    text-align: center;
+    color: #999;
+    background: #eee;
+
+}
+
+.contentf:hover {
+    height: 350px;
+
+
+}
+
+.footer {
+    padding: 20px 0;
+    text-align: center;
+    transition: 0.5s linear;
+}

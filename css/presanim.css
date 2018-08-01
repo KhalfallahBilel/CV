@@ -6,11 +6,11 @@
     height: 56px;
     position: absolute;
     left: 30%;
-    top: 20%;
+    top: 30%;
     z-index: 2;
     overflow: hidden;
     opacity: 0;
-    margin-top: 70px;
+    margin-top: 0px;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     -webkit-border-radius: 50%;
@@ -24,14 +24,14 @@
 .profile-card header {
     width: 179px;
 
-    height: 280px;
+    height: 300px;
     padding: 40px 20px 30px 20px;
     display: inline-block;
 
     border-right: 2px dashed #EEEEEE;
     background: #FFFFFF;
     color: #000000;
-    margin-top: 50px;
+
 
     opacity: 0;
     text-align: center;
@@ -40,7 +40,7 @@
 }
 
 .profile-card header h1 {
-    color: #ffffff;
+
     filter: opacity(350%);
 }
 
@@ -55,7 +55,7 @@
 
 .profile-card header a:after {
     position: absolute;
-    content: "";
+
     bottom: 3px;
     right: 3px;
     width: 50px;
@@ -92,13 +92,13 @@
 
 .profile-card .profile-bio {
     width: 175px;
-    height: 180px;
+    height: 200px;
     display: inline-block;
     float: right;
-    padding: 50px 20px 30px 20px;
+    padding: 50px 20px 30px 30px;
     background: #ffffff;
     color: #333333;
-    margin-top: 50px;
+    margin-top: 40px;
     text-align: center;
     opacity: 0;
     -webkit-animation: moveIn 1s 3.1s ease forwards;
@@ -125,7 +125,11 @@
 #container2 {
     background-color: transparent;
     background: rgba(255, 255, 255, 0.85);
-    filter: saturate()
+    filter: saturate();
+    margin-bottom: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+    ;
 }
 
 .mon_rounded {
